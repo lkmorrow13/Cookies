@@ -1,0 +1,52 @@
+html, body {
+	background-image: url(cookieImage/sky.jpg);
+}
+
+#item1 {
+	background-image: url(cookieImage/invaderking.gif);
+	background-repeat: no-repeat;
+	width: 381px;
+	height: 500px;
+	border-radius: 7px;
+	margin: 0 auto;
+}
+
+#grouping {
+	margin: 0 auto;
+	width: 65%;
+}
+
+#value1 {
+	display: inline-block;
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	border-radius: 7px;
+	margin: 0px 50px;
+}
+
+#value2 {
+	display: inline-block;
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	border-radius: 7px;
+	margin: 0px 50px;
+}
+
+#value3 {
+	display: inline-block;
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	border-radius: 7px;
+	margin: 0px 50px;
+}
+
+#clearClick {
+	display: inline-block;
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	border-radius: 7px;
+}
