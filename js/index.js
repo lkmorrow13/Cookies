@@ -9,6 +9,7 @@ $(function() {
 		$('#boom1').animate({opacity: '0'}, 1300);
 		$('#ship1death').animate({opacity: '1'});
 		$('#ship1death').animate({opacity: '0'}, 300);
+		$('#laserSound')[0].play();
 	})
 
 	$('#ship2').on('click', function() {
@@ -21,6 +22,7 @@ $(function() {
 		$('#boom2').animate({opacity: '0'}, 1300);
 		$('#ship2death').animate({opacity: '1'});
 		$('#ship2death').animate({opacity: '0'}, 300);
+		$('#laserSound')[0].play();
 	})
 
 	$('#ship3').on('click', function() {
@@ -33,6 +35,7 @@ $(function() {
 		$('#boom3').animate({opacity: '0'}, 1300);
 		$('#ship3death').animate({opacity: '1'});
 		$('#ship3death').animate({opacity: '0'}, 300);
+		$('#laserSound')[0].play();
 	})
 
 	$('#clearClick').on('click', function() {
@@ -42,9 +45,14 @@ $(function() {
 		$('#ship1 h1').text(0);
 		$('#ship2 h1').text(0);
 		$('#ship3 h1').text(0);
-		$('.laser-beam').animate({opacity: '1'});
-		$('.laser-beam').animate({opacity: '0'}, 300);
+		$('#revenge1').animate({opacity: '1'});
+		$('#revenge1').animate({opacity: '0'}, 300);
+		$('#revenge2').animate({opacity: '1'});
+		$('#revenge2').animate({opacity: '0'}, 300);
+		$('#revenge3').animate({opacity: '1'});
+		$('#revenge3').animate({opacity: '0'}, 300);
 		$('#monsterBoom').animate({opacity: '1'});
 		$('#monsterBoom').animate({opacity: '0'}, 1300);
+		$('#laserSound')[0].play();
 	})
 })

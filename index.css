@@ -1,6 +1,6 @@
 html, body {
 	background-image: url(cookieImage/space.gif);
-	height: 200%;
+	height: 100%;
 	width: 100%;
 }
 
@@ -70,13 +70,7 @@ html, body {
 }
 
 .laser-beam {
-	opacity: 0;
 	position: absolute;
-	left: 49%;
-	bottom: -35px;
-	width: 5px;
-	height: 364px;
-	border-radius: 50%;
 	background: rgba(99,195,231,0.6);
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(99,195,231,1);
 	-moz-box-shadow: 0px 0px 15px 0px rgba(99,195,231,1);
@@ -91,6 +85,35 @@ html, body {
     -webkit-box-shadow: 0px 0px 15px 0px rgba(236,19,65,1);
     -moz-box-shadow: 0px 0px 15px 0px rgba(236,19,65,1);
     box-shadow: 0px 0px 15px 0px rgba(236,19,65,1);
+}
+
+#revenge1 {
+	opacity: 0;
+	left: 38%;
+	bottom: -80px;
+	width: 5px;
+	height: 450px;
+	border-radius: 50%;
+	transform: rotate(-140deg);
+}
+
+#revenge2 {
+	opacity: 0;
+	left: 49%;
+	bottom: -35px;
+	width: 5px;
+	height: 364px;
+	border-radius: 50%;
+}
+
+#revenge3 {
+	opacity: 0;
+	left: 59%;
+	bottom: -80px;
+	width: 5px;
+	height: 450px;
+	border-radius: 50%;
+	transform: rotate(-220deg);
 }
 
 #ship1death {
